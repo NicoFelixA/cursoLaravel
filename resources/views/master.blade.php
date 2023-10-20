@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sistema de control escolar CETIS 107</title>
-    <link rel="stylesheet" href="css.boststrap/css">
-    <script src="jquery-3.7.1.js"></script>
+    <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+    <script src="{{ asset('jquery-3.7.1.js') }}"></script>
 </head>
 <body>
 
@@ -60,6 +60,7 @@
         Sistema de control escolar &copy; 2023
     
       </footer>
+      <script src="{{ asset('js/bootstrap.js') }}"></script>
 
       
 </body>

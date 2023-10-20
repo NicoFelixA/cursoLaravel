@@ -9,4 +9,4 @@ class AlumnoController extends Controller
     public function alumnos(){
         return view('alumnos');
     }
-}
+
