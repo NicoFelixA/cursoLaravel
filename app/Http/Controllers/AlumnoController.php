@@ -10,3 +10,4 @@ class AlumnoController extends Controller
         return view('alumnos');
     }
 
+}
