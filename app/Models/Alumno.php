@@ -10,4 +10,11 @@ class Alumno extends Model
     use HasFactory;
 
     protected $table = "alumnos";
+
+    protected $fillable = [
+        'nombre',
+        'edad',
+        'nc',
+        'sexo'
+    ];
 }
